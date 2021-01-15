@@ -4,23 +4,35 @@
   <link rel="stylesheet" href="css.css">
   <script src=js.js defer></script>
 </head>
+<body>
+<div class ="wholeWebPage">
 <div class="gridContainer">
-  <button id="1" class="potato">1</button> 
-  <button id="2" class="potato">2</button> 
-  <button id="3" class="potato">3</button> 
-  <button id="4" class="potato">4</button> 
-  <button id="5" class="potato">5</button> 
-  <button id="6" class="potato">6</button> 
-  <button id="7" class="potato">7</button> 
-  <button id="8" class="potato">8</button> 
-  <button id="9" class="potato">9</button> 
-  <button id="0" class="potato">0</button> 
-  <button id=" + " class="potato operator">+</button> 
-  <button id=" - " class="potato operator">-</button> 
+  <div class="display"> 
+  <p id="display"  type="text">....</p>
+  </div>
+  <button id="clear" class="clear">AC</button> 
+  <div class="numbersBox">
+  <button id="9" class="potato numbers">9</button> 
+  <button id="8" class="potato numbers">8</button> 
+  <button id="7" class="potato numbers">7</button> 
+  <button id="6" class="potato numbers">6</button> 
+  <button id="5" class="potato numbers">5</button> 
+  <button id="4" class="potato numbers">4</button> 
+  <button id="3" class="potato numbers">3</button> 
+  <button id="2" class="potato numbers">2</button> 
+  <button id="1" class="potato numbers">1</button> 
+  <button id="." class="potato">.</button> 
+  <button id="0" class="potato btnZero">0</button> 
+  </div>
+  
+  
+  <button id="=" class="equalBtn">=</button>
   <button id=" / " class="potato operator">/</button> 
   <button id=" x " class="potato operator">x</button> 
-  <button id="=" >=</button>
-  <button id="clear">Clear</button> 
- </div> 
-  <p id="display" type="text">hi</p>
+  <button id=" - " class="potato operator">-</button> 
+  <button id=" + " class="potato operator">+</button> 
+</div>
+  
+</body>
+ 
 </html>   

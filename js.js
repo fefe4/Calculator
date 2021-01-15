@@ -24,7 +24,7 @@ function operate (a, operator, b) {
 		return multiply (a,b);
 		break;
 	case "/": 
-		if (b = 0){
+		if (b == 0){
 			return "you can't divide by 0"
 		}
 		else {
